@@ -381,7 +381,7 @@ main {
   font-style: italic;
 }
 
-.box-mini {
+.box-mini-publications {
   display: flex;
   justify-content: space-between;
 }
