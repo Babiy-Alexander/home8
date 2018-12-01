@@ -346,7 +346,7 @@ main {
   font-weight: 400;
 }
 
-/*........................../......*/
+/*..........................recent-publications.*/
 
 .recent-publications {
   padding: 90px 0;
@@ -354,4 +354,58 @@ main {
 
 .recent-publications .header-nambers:after {
   content: "05";
+}
+
+.box-publications {
+  max-width: 370px;
+  border-bottom: 3px solid #e8bf5d;
+  padding: 40px 0 20px;
+}
+
+.box-recent-publications {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-box-publications {
+  color: #111111;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.box-publications span {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.box-mini {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-publications .text-box {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.box-mini a {
+  text-decoration: none;
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.text-box-mini {
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
