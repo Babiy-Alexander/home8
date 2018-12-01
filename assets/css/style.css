@@ -5,14 +5,14 @@
   margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
 }
 
 .header-nambers {
   position: relative;
-  border-left: 3px solid #e8bf5d;
+  border-left: 2px solid #e8bf5d;
   max-width: 785px;
   width: 100%;
   padding-left: 15px;
@@ -23,12 +23,28 @@ h1, h2 {
   content: '01';
   font-size: 195px;
   font-weight: 400;
-  top: -65px;
+  top: -55px;
   color: rgba(17, 17, 17, 0.05);
   font-family: "Open Sans", sans-serif;
 }
 
-/*.................header*/
+.title-black {
+  color: #111111;
+  font-family: "Playfair Display",sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  margin: 0 0 25px;
+}
+
+.title-white {
+  color: #ffffff;
+  font-family: "Playfair Display",sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  margin: 0 0 25px;
+}
+
+/*....................................header*/
 h1 a {
   color: #111111;
   font-size: 25px;
@@ -65,10 +81,10 @@ h1 a {
 }
 
 .nav a:hover {
-  border-bottom: 3px solid #e8bf5d;
+  border-bottom: 5px solid #e8bf5d;
 }
 
-/*...........main*/
+/*...............................main*/
 
 main {
   background: url(../img/main-foto.png) 50% 50% no-repeat;
@@ -122,17 +138,10 @@ main {
   font-size: 31px;
 }
 
-/*........section  about-us*/
+/*...................................section  about-us*/
 
 .about-us {
   padding: 90px 0;
-}
-.about-us h3 {
-  color: #111111;
-  font-family: "Playfair Display",sans-serif;
-  font-size: 31px;
-  font-weight: 400;
-  margin: 0 0 25px;
 }
 
 .text-about-us {
@@ -148,6 +157,7 @@ main {
   font-family: "Playfair Display", sans-serif;
   font-size: 21px;
   font-weight: 400;
+  margin: 50px 0 30px;
 }
 
 .year {
@@ -189,11 +199,16 @@ main {
   font-size: 14px;
   font-weight: 400;
   line-height: 3;
-  margin-top: 40px;
   letter-spacing: 0.56px;
 }
 
 /*............................................section practis-area*/
+
+
+.practis-area .header-nambers:after {
+  content: "02";
+  color: rgba(255, 255, 255, 0.05);
+}
 
 .practis-area .block {
   display: flex;
@@ -210,15 +225,7 @@ main {
 
 .practis-area {
   background-color: #111111;
-  padding: 100px 0;
-}
-
-.practis-area h3 {
-  color: #ffffff;
-  font-family: "Playfair Display",sans-serif;
-  font-size: 21px;
-  font-weight: 400;
-  margin: 0 0 25px;
+  padding: 90px 0;
 }
 
 .text-practis-area {
@@ -238,11 +245,6 @@ main {
   line-height: 2;
 }
 
-.practis-area .header-nambers:after {
-  content: "02";
-  color: rgba(255, 255, 255, 0.05);
-}
-
 .box {
   max-width: 450px;
   width: 100%;
@@ -254,4 +256,102 @@ main {
   margin:0 0 50px 20px;
   max-width: 360px;
   width: 100%;
+}
+
+.header-practis-area {
+  color: #ffffff;
+  font-family: "Playfair Display",sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*................................section meet-our-attorney*/
+
+.meet-our-attorney .header-nambers:after {
+  content: "03";
+}
+
+.meet-our-attorney {
+  padding: 90px 0;
+}
+
+.meet-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.header-meet-our-attorney {
+  padding-top: 15px;
+  color: #111111;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.meet-container span{
+  color: #666666;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 400
+}
+
+/*.........................................our-clients-say*/
+
+.our-clients-say {
+  background: url(../img/clients-bg.png) 50% 50% no-repeat;
+  padding: 90px 0;
+}
+
+.our-clients-say .header-nambers:after {
+  content: "04";
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.box-our-clients {
+  margin-top: 100px;
+  position: relative;
+}
+
+.client-photo{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.our-clients {
+  display: flex;
+}
+
+.description {
+  margin-left: 70px;
+  max-width: 600px;
+}
+
+.header-our-clients {
+  color: #ffffff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  padding: 15px 0 5px;
+}
+
+.our-clients span {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*........................../......*/
+
+.recent-publications {
+  padding: 90px 0;
+}
+
+.recent-publications .header-nambers:after {
+  content: "05";
 }
