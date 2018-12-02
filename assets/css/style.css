@@ -466,8 +466,10 @@ main {
 
 .box-text-bg {
   background: #e8bf5d;
-  max-width: 500px;
+  max-width: 420px;
+  width: 100%;
   padding: 40px;
+  margin-right: 80px;
 }
 
 .text {
@@ -487,4 +489,49 @@ main {
 
 .contact .header-nambers:after {
   content: "06";
+}
+
+.box-contact {
+  display: flex;
+  justify-content: space-between;
+  max-width: 930px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.box-mini-contact {
+  margin: 100px 20px;
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+input, textarea {
+  width: 360px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  margin: 5px 0;
+}
+
+textarea {
+  min-height: 80px;
+}
+
+.list {
+  list-style: none;
+}
+
+input::placeholder {
+  color: #b9b9b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+
 }
