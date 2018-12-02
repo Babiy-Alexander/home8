@@ -409,3 +409,67 @@ main {
   font-size: 16px;
   font-weight: 400;
 }
+
+/*.................................section frequently-asked-questions*/
+
+.frequently-asked-questions {
+  background-color: #111111;
+  padding: 90px 0;
+}
+
+.frequently-asked-questions .header-nambers:after {
+  content: "06";
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.box-questions {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-questions a {
+  text-decoration: none;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+.box-questions li {
+  list-style: none;
+  border-bottom: 2px solid #e8bf5d;
+}
+
+.active {
+  color: #e8bf5d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.text-questions {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.box-questions ul {
+  max-width: 565px;
+}
+
+.box-text-bg {
+  background: #e8bf5d;
+  max-width: 500px;
+  padding: 40px;
+}
+
+.text {
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.56px;
+}
