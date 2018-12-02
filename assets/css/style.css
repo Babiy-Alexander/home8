@@ -381,7 +381,7 @@ main {
   font-style: italic;
 }
 
-.box-mini-publications {
+.box-mini-publications{
   display: flex;
   justify-content: space-between;
 }
@@ -394,7 +394,7 @@ main {
   line-height: 2;
 }
 
-.box-mini a {
+.box-mini-publications a {
   text-decoration: none;
   color: #111111;
   font-family: "Open Sans", sans-serif;
@@ -431,12 +431,22 @@ main {
 .box-questions a {
   text-decoration: none;
   display: flex;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
+
 }
 
 .box-questions li {
   list-style: none;
   border-bottom: 2px solid #e8bf5d;
+}
+
+.text-questions {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+  margin: 5px 0;
 }
 
 .active {
@@ -447,16 +457,11 @@ main {
   line-height: 2;
 }
 
-.text-questions {
-  color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 2;
-}
-
 .box-questions ul {
-  max-width: 565px;
+  padding: 0;
+  margin: 0;
+  max-width: 570px;
+  width: 100%;
 }
 
 .box-text-bg {
@@ -472,4 +477,14 @@ main {
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.56px;
+}
+
+/*.....................section contact*/
+
+.contact {
+  padding: 90px 0;
+}
+
+.contact .header-nambers:after {
+  content: "06";
 }
